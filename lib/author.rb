@@ -31,3 +31,4 @@
     Post.all.count
   end
 end
+end

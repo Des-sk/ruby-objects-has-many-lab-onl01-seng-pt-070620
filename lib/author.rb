@@ -17,13 +17,11 @@ end
     post.author = self
     
 end
-
-  def add_post_by_title(post_title) 
-   singer= Post.new(post_title)
-   add_post(singer)
- end
   
-  
+  def add_post_by_title(title)
+    post = Post.new(title)
+    post.author = self
+  end
   
 
 end

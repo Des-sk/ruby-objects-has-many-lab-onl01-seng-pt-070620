@@ -19,4 +19,6 @@
     post.author = self
   end
 
+
+
 end

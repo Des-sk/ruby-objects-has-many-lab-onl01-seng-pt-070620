@@ -4,7 +4,7 @@ class Post
   @@all= [ ]
   
   def initialize(author)
-    @author=author
+    @title=author
     @@all<< self 
   end
   
